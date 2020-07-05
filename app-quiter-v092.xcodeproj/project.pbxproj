@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0390C1E00004BED00B94227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0390C1D00004BED00B94227 /* main.m */; };
+		D0390C2000004BED00B94227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0390C1F00004BED00B94227 /* Assets.xcassets */; };
+		D0390C2300004BED00B94227 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0390C2100004BED00B94227 /* MainMenu.xib */; };
+		D0390C2C00004D0500B94227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0390C1A00004BED00B94227 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0390C1600004BED00B94227 /* app-quiter-v092.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-quiter-v092.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0390C1900004BED00B94227 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0390C1A00004BED00B94227 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0390C1D00004BED00B94227 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0390C1F00004BED00B94227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0390C2200004BED00B94227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D0390C2400004BED00B94227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0390C1300004BED00B94227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0390C0D00004BEC00B94227 = {
+			isa = PBXGroup;
+			children = (
+				D0390C1800004BED00B94227 /* app-quiter-v092 */,
+				D0390C1700004BED00B94227 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0390C1700004BED00B94227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0390C1600004BED00B94227 /* app-quiter-v092.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0390C1800004BED00B94227 /* app-quiter-v092 */ = {
+			isa = PBXGroup;
+			children = (
+				D0390C1900004BED00B94227 /* AppDelegate.h */,
+				D0390C1A00004BED00B94227 /* AppDelegate.m */,
+				D0390C1F00004BED00B94227 /* Assets.xcassets */,
+				D0390C2100004BED00B94227 /* MainMenu.xib */,
+				D0390C2400004BED00B94227 /* Info.plist */,
+				D0390C1C00004BED00B94227 /* Supporting Files */,
+			);
+			path = "app-quiter-v092";
+			sourceTree = "<group>";
+		};
+		D0390C1C00004BED00B94227 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0390C1D00004BED00B94227 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0390C1500004BED00B94227 /* app-quiter-v092 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0390C2700004BED00B94227 /* Build configuration list for PBXNativeTarget "app-quiter-v092" */;
+			buildPhases = (
+				D0390C1200004BED00B94227 /* Sources */,
+				D0390C1300004BED00B94227 /* Frameworks */,
+				D0390C1400004BED00B94227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "app-quiter-v092";
+			productName = "app-quiter-v092";
+			productReference = D0390C1600004BED00B94227 /* app-quiter-v092.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0390C0E00004BEC00B94227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lim0;
+				TargetAttributes = {
+					D0390C1500004BED00B94227 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D0390C1100004BED00B94227 /* Build configuration list for PBXProject "app-quiter-v092" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0390C0D00004BEC00B94227;
+			productRefGroup = D0390C1700004BED00B94227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0390C1500004BED00B94227 /* app-quiter-v092 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0390C1400004BED00B94227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0390C2000004BED00B94227 /* Assets.xcassets in Resources */,
+				D0390C2300004BED00B94227 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0390C1200004BED00B94227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0390C2C00004D0500B94227 /* AppDelegate.m in Sources */,
+				D0390C1E00004BED00B94227 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0390C2100004BED00B94227 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0390C2200004BED00B94227 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0390C2500004BED00B94227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0390C2600004BED00B94227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0390C2800004BED00B94227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "app-quiter-v092/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.upwork.freelancers.-0155856bd80bc4c0ff.app-quiter-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0390C2900004BED00B94227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "app-quiter-v092/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.upwork.freelancers.-0155856bd80bc4c0ff.app-quiter-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0390C1100004BED00B94227 /* Build configuration list for PBXProject "app-quiter-v092" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0390C2500004BED00B94227 /* Debug */,
+				D0390C2600004BED00B94227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0390C2700004BED00B94227 /* Build configuration list for PBXNativeTarget "app-quiter-v092" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0390C2800004BED00B94227 /* Debug */,
+				D0390C2900004BED00B94227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0390C0E00004BEC00B94227 /* Project object */;
+}
